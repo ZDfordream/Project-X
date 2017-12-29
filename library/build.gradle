@@ -1,0 +1,77 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile rootProject.ext.dependencies["support-v4"]
+    compile rootProject.ext.dependencies["appcompat-v7"]
+    compile rootProject.ext.dependencies["design"]
+    compile rootProject.ext.dependencies["recyclerview"]
+    compile rootProject.ext.dependencies["rxandroid"]
+    compile rootProject.ext.dependencies["rxbinding"]
+    compile rootProject.ext.dependencies["stream"]
+    compile rootProject.ext.dependencies["rxbinding-support-v4"]
+    compile rootProject.ext.dependencies["rxbinding-appcompat-v7"]
+    compile rootProject.ext.dependencies["rxbinding-recyclerview-v7"]
+    compile rootProject.ext.dependencies["rxpermissions"]
+    compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["fastjson"]
+    compile rootProject.ext.dependencies["BaseRecyclerViewAdapterHelper"]
+//    compile rootProject.ext.dependencies["CompressHelper"]
+    compile rootProject.ext.dependencies["RecyclerViewPager"]
+    compile rootProject.ext.dependencies["LoadingBar"]
+    compile rootProject.ext.dependencies["okgo"]
+    compile rootProject.ext.dependencies["okrx"]
+    compile rootProject.ext.dependencies["circleimageview"]
+    compile rootProject.ext.dependencies["butterknife"]
+    compile rootProject.ext.dependencies["html-textview"]
+    compile rootProject.ext.dependencies["jsoup"]
+    compile rootProject.ext.dependencies["statusview"]
+    compile rootProject.ext.dependencies["imagepicker"]
+    compile rootProject.ext.dependencies["adapter-rxjava"]
+    compile rootProject.ext.dependencies["converter-gson"]
+
+
+    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
+    compile 'org.jetbrains:annotations:15.0'
+    //友盟统计
+    compile 'com.umeng.analytics:analytics:6.1.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+}
+repositories {
+    mavenCentral()
+}

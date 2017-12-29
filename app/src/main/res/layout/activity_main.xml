@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/line"
+        style="@style/line_divider" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.amxc.project.widget.MyRadioButton
+            android:id="@+id/rb_home"
+            style="@style/menu_tab"
+            android:checked="true"
+            android:text="新闻"
+            app:rbDrawableSize="24dp"
+            app:rbDrawableTop="@drawable/main_news" />
+
+        <com.amxc.project.widget.MyRadioButton
+            android:id="@+id/rb_movie"
+            style="@style/menu_tab"
+            android:text="视屏"
+            app:rbDrawableSize="24dp"
+            app:rbDrawableTop="@drawable/main_video" />
+
+        <com.amxc.project.widget.MyRadioButton
+            android:id="@+id/rb_find"
+            style="@style/menu_tab"
+            android:text="发现"
+            app:rbDrawableSize="25dp"
+            app:rbDrawableTop="@drawable/main_girl">
+
+        </com.amxc.project.widget.MyRadioButton>
+
+        <com.amxc.project.widget.MyRadioButton
+            android:id="@+id/rb_mine"
+            style="@style/menu_tab"
+            android:text="我的"
+            app:rbDrawableSize="24dp"
+            app:rbDrawableTop="@drawable/main_mine" />
+    </RadioGroup>
+</LinearLayout>

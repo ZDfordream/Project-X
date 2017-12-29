@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">好趣</string>
+
+    <string name="appbar_overscroll_behavior">com.amxc.project.widget.AppBarLayoutOverScrollViewBehavior</string>
+    <string name="appbar_circleimageview_behavior">com.amxc.project.widget.CircleImageInUsercBehavior</string>
+</resources>

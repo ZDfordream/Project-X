@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/func_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorBg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/func_music"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Music"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_orange"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Orange"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_swim"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Swim"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_soccer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Soccer"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/func_storm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Storm"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_book"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Book"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_basketball"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Basketball"
+            android:textColor="@color/colorBlack33"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/func_lighting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorBlack33"
+            android:text="Lightning"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorBg" />
+</LinearLayout>

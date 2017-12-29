@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="error">#ff4545</color>
+    <color name="theme_color">#EB413D</color>
+    <color name="default_background" >#ffffff</color>
+
+    <color name="tab_selected">#ff0000</color>
+    <color name="tab_normal">#000000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#80000000</color>
+    <color name="global_white_half_transparent">#80FFFFFF</color>
+    <color name="global_transparent">#66000000</color>
+    <color name="global_black_color">#333333</color>
+    <color name="global_grey_black_color">#666666</color>
+    <color name="global_red_color">#fd5353</color>
+    <color name="global_grey_bth_color">#b7b7b7</color>
+    <color name="global_label_color">#999999</color>
+    <color name="global_hint_color">#CCCCCC</color>
+    <color name="global_blue_label_color1">#43B4FD</color>
+    <color name="global_blue_label_color2">#35A7E9</color>
+
+    <color name="global_back_black_color">#f2f2f2</color>
+    <color name="global_line_color">#d9d9d9</color>
+    <color name="global_white_color">#ffffff</color>
+    <color name="global_grey_divider_color">#e6e6e6</color>
+    <color name="progressbar_horizontal">#ffffff</color>
+    <color name="btn_gray">#d9d9d9</color>
+
+
+    <!-- 主题蓝色 -->
+    <color name="btn_press_color">#149cf1</color>
+
+    <!-- 首页借款颜色 -->
+    <color name="home_title_back">#233845</color>
+    <color name="home_card_blue_back_color">#4ab6fa</color>
+    <color name="home_card_gold_back_color">#ecbe06</color>
+    <color name="home_card_blue_color">#257fc7</color>
+    <color name="home_card_gold_color">#a6880e</color>
+    <color name="home_card_blue_text_color">#77caff</color>
+    <color name="home_card_gold_text_color">#bd9a0c</color>
+    <color name="home_tag_color">#ff8003</color>
+
+    <!-- 广告页颜色 -->
+    <color name="ad_color_yellow">#fcd426</color>
+
+    <!-- 地图颜色 -->
+    <color name="amap_transparent_theme_color">#664ab6fa</color>
+
+    <!--还款页面颜色-->
+    <color name="repayment_black3_3">#333</color>
+    <color name="repayment_black3_6">#666</color>
+    <color name="repayment_black3_9">#999</color>
+    <color name="repayment_status">#ff8003</color>
+    <color name="repayment_desc">#ADADAD</color>
+    <color name="repayment_show_detail">#353a54</color>
+
+    <!-- 广告页颜色 -->
+    <color name="auth_bottom_green_color">#2ebd59</color>
+
+
+    <color name="benefit_green_color">#15a35f</color>
+
+    <color name="future_data">#38bfe6</color>
+
+    <!-- 预借款页颜色 -->
+    <color name="pre_lead_money_color">#ff8003</color>
+    <!-- 认证页面进度颜色 -->
+    <color name="qupta_progress_text_color">#34a0e4</color>
+    <color name="theme_background_color">#f9f9f9</color>
+
+    <color name="color_c8c7cc">#c8c7cc</color>
+    <color name="color_8d8d8d">#8d8d8d</color>
+
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_feffff">#feffff</color>
+    <color name="color_fefced">#fefced</color>
+    <color name="color_f36342">#f36342</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_d6d7dc">#d6d7dc</color>
+
+    <color name="color_14ffffff">#14ffffff</color>
+    <color name="color_f41c1c">#f41c1c</color>f801a
+    <color name="color_f18b13">#f18b13</color>
+    <color name="color_ff801a">#ff801a</color>
+    <color name="color_ff8800">#ff8800</color>
+    <color name="color_eeeeee">#eeeeee</color>
+
+
+    <color name="color_adadad">#adadad</color>
+    <color name="color_ffb400">#ffb400</color>
+    <color name="color_33b1e0">#33b1e0</color>
+    <color name="color_ef837f">#ef837f</color>
+
+    <color name="tab_text">#dcdcdc</color>
+    <color name="background">#F6F6F6</color>
+    <color name="text_nomal">#7C8282</color>
+    <color name="text_strong">#070707</color>
+    <color name="colorBg">#f5f5f5</color>
+    <color name="colorBlack33">#333333</color>
+    <color name="pink_fc4f74">#fc4f74</color>
+    <!--item的5.0一下版本选择器颜色-->
+    <color name="itemLowBackground">#d9d9d9</color>
+
+</resources>

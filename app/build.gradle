@@ -34,6 +34,30 @@ android {
     dexOptions {
         javaMaxHeapSize "4g"
     }
+
+    // 签名配置
+    signingConfigs {
+        release {
+            try {
+                storeFile file("./keystore/amxc_ddd_keystore.jks")
+                storePassword 'amxc123456'
+                keyAlias 'amxc'
+                keyPassword 'amxc123456'
+            } catch (ex) {
+                throw new InvalidUserDataException(ex.toString())
+            }
+        }
+        debug {
+            try {
+                storeFile file("./keystore/amxc_ddd_keystore.jks")
+                storePassword 'amxc123456'
+                keyAlias 'amxc'
+                keyPassword 'amxc123456'
+            } catch (ex) {
+                throw new InvalidUserDataException(ex.toString())
+            }
+        }
+    }
 }
 
 
